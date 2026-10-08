@@ -47,11 +47,11 @@ The following classification models are compared:
 2. Understand the dataset structure and statistics
 3. Check for missing values and duplicates
 4. Identify invalid zero values
-5. Replace invalid zero values with missing values
-6. Handle missing values using median imputation
+5. Separate features and target
+6. Split the data into training and test sets
 7. Detect and cap outliers using the IQR method
-8. Separate features and target
-9. Split the data into training and test sets
+8. Replace invalid zero values with missing values
+9. Handle missing values using median imputation
 10. Apply feature scaling where needed
 11. Train multiple classification models
 12. Evaluate the initial model performance
